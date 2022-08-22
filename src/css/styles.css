@@ -11,6 +11,12 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+h1{
+  display: inline;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+}
 .nav{
   position: fixed;
   top: 0px;
@@ -40,104 +46,4 @@ body {
 li{
   list-style: none;
   margin: 5px;
-}
-.div__all-country{
-padding-top: 100px;
-}
-.title__all-countries-invisible{
-  opacity: 0;
-  display: flex;
-  justify-content: center;
-}
-.title__all-countries-visible{
-  opacity: 1;
-  display: flex;
-  justify-content: center;
-}
-
-/* Проекты */
-.projects-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
-}
-
-.projects-list__img {
-  display: block;
-}
-
-.projects-list__item {
-  margin: 15px;
-  transition-duration: 250ms;
-width: 200px;
-
-}
-.projects-list__item:hover,
-.projects-list__item:focus {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-/* Текст на ховере */
-.projects-list__box {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.projects-list__description {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translatey(100%);
-  transition-duration: 450ms;
-  padding: 0.7rem 0.7rem;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.1rem;
-  line-height: 1.2rem;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  opacity: 0;
-}
-.projects-list__item:hover .projects-list__description {
-  background-color: rgba(33, 150, 243, 0.9);
-  opacity: 1;
-  transform: translatey(0);
-}
-
-/* Ссылка на проект */
-.projects-list__link {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-/* Заголовок и описание */
-.projects-list__about {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  padding: 1.25rem 1.5rem;
-  flex-grow: 1;
-}
-
-/* Заголовок проекта */
-.projects-list__title {
-  padding-bottom: 0.25rem;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-
-/* Описание проектов */
-.projects-list__service {
-  color: #757575;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
 }
