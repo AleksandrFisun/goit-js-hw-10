@@ -1,6 +1,6 @@
 import fetchCountries from './js/fetchCountries';
-import listCountries from './template/listCountries.hbs';
-import countryСard from './template/countryСard.hbs';
+import listCountries from './template/list-countries.hbs';
+import countryСard from './template/country-card.hbs';
 import './css/styles.css';
 import debounce from 'lodash.debounce';
 import Notiflix from 'notiflix';
